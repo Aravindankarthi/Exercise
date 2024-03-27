@@ -1,0 +1,63 @@
+.btn{display:inline-block;}
+.btn1
+{
+width:50px;
+height:50px;
+margin: 0px 5px 0px; 
+cursor:pointer;
+border-radius:50px;
+border:none;
+position:relative;
+}
+.btn1:hover
+{
+background-color:blue;
+color:#333;
+}
+.box
+{
+width:350px;
+padding:50px;
+background:grey;
+border-radius:10px;
+}
+.tip:before
+{
+content:attr(data-hover);
+visibility:hidden;
+opacity:0;
+width:50px;
+text-align:center;
+border-radius:5px;
+padding:5px 0;
+transition:opacity 0.1s ease-in-out;
+position:absolute;
+z-index:1;
+bottom:110%;
+right:1px;
+}
+.tip:hover:before{opacity:1;visibility:visible;}
+.facebook:hover {background-color:blue;color:white;}
+.tip1:hover:before{background-color:blue;color:white;}
+.insta:hover {background-color:pink;color:white;}
+.tip2:hover:before{background-color:pink;color:white;}
+.whatsapp:hover {background-color:lightgreen;color:white;}
+.tip3:hover:before{background-color:lightgreen;color:white;}
+.github:hover {background-color:black;color:white;}
+.tip4:hover:before{background-color:black;color:white;}
+.twiter:hover {background-color:skyblue;color:white;}
+.tip5:hover:before{background-color:skyblue;color:white;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
